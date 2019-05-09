@@ -1129,7 +1129,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "heavy_data", serif;
+  font-family: "montserrat-bold", serif;
   font-size: 5rem;
   line-height: 1.375;
   color: #151515;
@@ -1144,7 +1144,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   font-size: 3.5rem;
   line-height: 1.833;
 }
@@ -1787,7 +1787,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #52489C;
 }
 #about h3 {
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-bold", sans-serif;
   font-size: 5rem;
   line-height: 1.667;
   color: #52489C;
@@ -1804,7 +1804,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "heavy_data", serif;
+  font-family: "montserrat-regular", serif;
   font-size: 4rem;
   line-height: 1.8;
   color: #2e383f;
@@ -2118,7 +2118,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.364;
 }
 .bricks-wrapper .item-wrap .item-text .folio-types {
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
@@ -2210,13 +2210,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .lg-sub-html h4 {
   color: #FFFFFF;
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.333;
 }
 
 .lg-sub-html p {
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   font-size: 1.3rem;
   line-height: 2.4rem;
   margin: .6rem 0 0;
@@ -2232,7 +2232,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #lg-counter {
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
 }
 
 /* ------------------------------------------------------------------- 
