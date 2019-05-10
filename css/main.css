@@ -712,7 +712,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -757,7 +757,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   background: #151515;
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 
 .button.button-primary:hover,
@@ -1301,7 +1301,7 @@ header .header-logo a {
   background-color: #000000;
 }
 #header-menu-trigger:hover, #header-menu-trigger:focus {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 #header-menu-trigger .header-menu-text {
   display: block;
@@ -1321,7 +1321,7 @@ header .header-logo a {
   display: block;
   height: 3px;
   width: 24px;
-  background-color: #FFFFFF;
+  background-color: #F9F9F9;
   position: absolute;
   top: 50%;
   right: 9px;
@@ -1548,7 +1548,7 @@ header .header-logo a {
 .home-content-tablecell h3 {
   font-family: "heavy_data", sans-serif;
   font-size: 5rem;
-  color: white;
+  color: #1deb5c;
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin: 0 0 .9rem 0;
@@ -1557,14 +1557,14 @@ header .header-logo a {
   font-family: "heavy_data", serif;
   font-size: 10rem;
   line-height: 1.133;
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 .home-content-tablecell .more {
   margin: 4.8rem 0 0 0;
 }
 .home-content-tablecell .more .button {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #F9F9F9;
+  color: #F9F9F9;
 }
 
 /* home social-list */
@@ -1593,7 +1593,7 @@ header .header-logo a {
   padding-left: 0;
 }
 .home-social-list li a, .home-social-list li a:visited {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 .home-social-list li a:hover, 
 .home-social-list li a:focus, 
@@ -1632,7 +1632,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #FFFFFF !important;
+  color: #F9F9F9 !important;
   background: transparent;
   position: relative;
   top: 36px;
@@ -1776,21 +1776,21 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-color: #F9F9F9;
   min-height: 696px;
   text-align: center;
 }
 #about .about-wrap {
-  max-width: 850px;
+  max-width: 1000px;
 }
 #about span {
-  color: #52489C;
+  color: #22B8E2;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 5rem;
   line-height: 1.667;
-  color: #52489C;
+  color: #22B8E2;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1915,10 +1915,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #skills .section-intro h3 {
-  color: #BABABA;
+  color: #1deb5c;
 }
 #skills .section-intro h1 {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 #skills .section-intro .lead {
   color: #BABABA;
@@ -1947,9 +1947,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #1deb5c;
 }
 #skills .services-list .h05 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 1.765;
-  color: #FFFFFF;
+  color: #F9F9F9;
   margin-bottom: 3rem;
 }
 
@@ -2001,7 +2001,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-  background: #FFFFFF;
+  background: #F9F9F9;
   min-height: 800px;
   position: relative;
   padding: 0;
@@ -2012,10 +2012,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-image: url(../images/BGspace.gif);
 }
 #portfolio .section-intro h3 {
-  color: #BABABA;
+  color: #1deb5c;
 }
 #portfolio .section-intro h1 {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 #portfolio .section-intro .lead {
   color: #BABABA;
@@ -2092,7 +2092,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 50%;
   top: 50%;
   text-align: center;
-  color: #FFFFFF;
+  color: #F9F9F9;
   opacity: 0;
   visibility: hidden;
   -moz-transition: all 0.3s ease-in-out;
@@ -2113,7 +2113,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   z-index: 3;
 }
 .bricks-wrapper .item-wrap .item-text .folio-title {
-  color: #FFFFFF;
+  color: #F9F9F9;
   font-size: 2.2rem;
   line-height: 1.364;
 }
@@ -2146,7 +2146,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 4.2rem;
 }
 .bricks-wrapper .item-wrap .details-link:hover, .bricks-wrapper .item-wrap .details-link:focus {
-  background-color: #FFFFFF;
+  background-color: #F9F9F9;
   color: #000000;
 }
 .bricks-wrapper .item-wrap .item-text, .bricks-wrapper .item-wrap .details-link {
@@ -2195,7 +2195,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #1deb5c;
 }
 .lg-sub-html a:hover, .lg-sub-html a:focus {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 @media only screen and (max-width: 1024px) {
   .lg-sub-html {
@@ -2209,7 +2209,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .lg-sub-html h4 {
-  color: #FFFFFF;
+  color: #F9F9F9;
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -2228,7 +2228,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .lg-progress-bar .lg-progress {
-  background-color: #FFFFFF;
+  background-color: #F9F9F9;
 }
 
 #lg-counter {
@@ -2262,12 +2262,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #testimonials {
-  background: #FFFFFF;
+  background: #F9F9F9;
   padding: 12rem 0 7.8rem;
   text-align: center;
 }
 #testimonials h2 {
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
   color: #07617d;
@@ -2291,14 +2291,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding-bottom: 3rem;
 }
 #testimonial-slider p {
-  font-family: "heavy_data", serif;
+  font-family: "montserrat-regular", serif;
   font-size: 3rem;
   line-height: 1.8;
   color: #151515;
 }
 #testimonial-slider p::before, #testimonial-slider p::after {
   display: inline-block;
-  font-family: "heavy_data", serif;
+  font-family: "montserrat-regular", serif;
   font-size: 3.6rem;
   line-height: 1;
 }
@@ -2323,7 +2323,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
   margin-top: .9rem;
   margin-bottom: 3rem;
@@ -2331,7 +2331,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   font-size: 1.6rem;
   line-height: 1.313;
   letter-spacing: 0;
@@ -2451,7 +2451,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-tap-highlight-color: transparent;
 }
 #clients .owl-carousel .owl-nav [class*='owl-'] {
-  color: #FFFFFF;
+  color: #F9F9F9;
   font-family: "heavy_data", sans-serif;
   font-size: 1.4rem;
   height: 3rem;
@@ -2465,7 +2465,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #clients .owl-carousel .owl-nav [class*='owl-']:hover {
   background: rgba(0, 0, 0, 0.7);
-  color: #FFFFFF;
+  color: #F9F9F9;
   text-decoration: none;
 }
 #clients .owl-carousel .owl-nav .disabled {
@@ -2528,7 +2528,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: white;
 }
 #contact .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: #1deb5c;
 }
 #contact .section-intro p.lead {
   color: rgba(242, 242, 242, 0.4);
@@ -2537,12 +2537,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .contact-content {
   max-width: 1024px;
   margin-top: 3rem;
-  color: #FFFFFF;
+  color: #F9F9F9;
   z-index: 600;
   position: relative;
 }
 .contact-content h5 {
-  color: #FFFFFF;
+  color: #F9F9F9;
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
@@ -2571,7 +2571,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 #contact form .form-field label {
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   font-size: 1rem;
   line-height: 1.4;
   position: absolute;
@@ -2626,7 +2626,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 
 #contact textarea {
@@ -2634,7 +2634,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 
 #contact button.submitform {
@@ -2650,7 +2650,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-top: .6rem;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-  background: #f89e0f;
+  background: #75F39B;
 }
 
 #message-warning, #message-success {
@@ -2686,9 +2686,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #submit-loader .text-loader {
   display: none;
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
-  color: #FFFFFF;
+  color: #F9F9F9;
   letter-spacing: .2rem;
   text-transform: uppercase;
 }
@@ -2715,7 +2715,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .s-loader > div {
   width: 9px;
   height: 9px;
-  background-color: #FFFFFF;
+  background-color: #F9F9F9;
   border-radius: 100%;
   display: inline-block;
   margin-right: .9rem;
@@ -2805,7 +2805,7 @@ footer {
   color: rgba(255, 255, 255, 0.4);
 }
 footer a, footer a:visited {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 footer a:hover, footer a:focus {
   color: #1deb5c;
@@ -2814,7 +2814,7 @@ footer .row {
   max-width: 1024px;
 }
 footer h4.h05 {
-  color: #FFFFFF;
+  color: #F9F9F9;
   position: relative;
   padding-bottom: 4.2rem;
   margin-bottom: 3.6rem;
@@ -2848,7 +2848,7 @@ footer h4.h05::after {
   color: rgba(255, 255, 255, 0.4);
 }
 .footer-main ul a:hover, .footer-main ul a:focus {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 .footer-main .subscribe-form {
   position: relative;
@@ -2877,7 +2877,7 @@ footer h4.h05::after {
   top: 0;
 }
 .footer-main #mc-form button:hover {
-  background-color: #f89e0f;
+  background-color: #1deb5c;
 }
 .footer-main #mc-form button i {
   font-size: 2.6rem;
@@ -2888,7 +2888,7 @@ footer h4.h05::after {
 }
 .footer-main #mc-form label {
   color: #1deb5c;
-  font-family: "heavy_data", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
 }
 
 /* footer bottom
@@ -2947,7 +2947,7 @@ footer h4.h05::after {
 }
 #go-top a:hover, #go-top a:focus {
   background: #000000;
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 
 /* ------------------------------------------------------------------- 
