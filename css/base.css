@@ -559,6 +559,10 @@ textarea {
   width: 50%;
 }
 
+.block-full .bgrid {
+  width: 100%;
+}
+
 /**
  * Clearing for block grid columns. Allow columns with 
  * different heights to align properly.
