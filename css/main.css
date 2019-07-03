@@ -2801,7 +2801,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 footer {
   padding: 0;
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
 }
 footer a, footer a:visited {
   color: #F9F9F9;
