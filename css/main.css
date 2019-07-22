@@ -1979,7 +1979,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   /* Hide inner attributes */
   display: none;
 }
-.skills-diagram-programming > dd {
+.skills-diagram-production > dd {
   /* Hide inner attributes */
   display: none;
 }
@@ -2280,9 +2280,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 5em;
   height: 5em;
   line-height: 5em;
-  background-color: rgba(54, 107, 151, .5);
-  border-color: rgba(254, 221, 80, 1);
-  color: rgba(254, 221, 80, 1);
+  background-color: rgba(32, 32, 32, .5);
+  border-color: rgba(255, 136, 28, 1);
+  color: rgba(255, 136, 28, 1);
 }
 .skills-diagram-production .skill-6 {
   vertical-align: top;
@@ -2291,18 +2291,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   height: 6em;
   line-height: 6em;
   
-  background-color: rgba(72, 76, 137, .5);
-  border-color: rgba(255, 255, 255, 1);
-  color: rgba(255, 255, 255, 1);
+  background-color: rgba(9, 25, 25, .5);
+  border-color: rgba(10, 114, 114, 1);
+  color: rgba(10, 114, 114, 1);
 }
 .skills-diagram-production .skill-7 {
   width: 7em;
   height: 7em;
   line-height: 7em;
   
-  background-color: rgba(4, 43, 55, .5);
-  border-color: rgba(231, 111, 0, 1);
-  color: rgba(231, 111, 0, 1);
+  background-color: rgba(0, 84, 84, .5);
+  border-color: rgba(10, 229, 229, 1);
+  color: rgba(10, 229, 229, 1);
 }
 .skills-diagram-production .skill-8 {
   vertical-align: bottom;
@@ -2310,7 +2310,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 8em; 
   height: 8em;
   line-height: 8em;
-  background-color: rgba(214, 186, 48, .5);
+  background-color: rgba(27, 37, 48, .5);
   border-color: rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, 1);
 }
@@ -2319,17 +2319,17 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   height: 11em;
   line-height: 11em;
   
-  background-color: rgba(21, 111, 186, .5);
-  border-color: rgba(255, 255, 255, 1);
-  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, .5);
+  border-color: rgba(255, 100, 0, 1);
+  color: rgba(255, 100, 0, 1);
 }
 .skills-diagram-production .skill-10 {
   width: 14em;
   height: 14em;
   line-height: 14em;
-  background-color: rgba(228, 77, 38, .5);
-  border-color: rgba(255, 255, 255, 1);
-  color: rgba(255, 255, 255, 1);
+  background-color: rgba(45, 45, 45, .5);
+  border-color: rgba(210, 220, 230, 1);
+  color: rgba(210, 220, 230, 1;
 }
 /* ------------------------------------------------------------------- 
  * responsive:
