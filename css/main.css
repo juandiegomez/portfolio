@@ -2329,7 +2329,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 14em;
   background-color: rgba(45, 45, 45, .5);
   border-color: rgba(210, 220, 230, 1);
-  color: rgba(210, 220, 230, 1;
+  color: rgba(210, 220, 230, 1);
 }
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2340,6 +2340,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     padding: 0 40px;
   }
 }
+
 @media only screen and (max-width: 900px) {
   #skills .services-list .service-item {
     padding: 0 30px;
