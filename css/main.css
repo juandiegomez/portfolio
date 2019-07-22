@@ -1953,6 +1953,384 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 3rem;
 }
 
+.skills-diagram-design {
+  font-weight: bold;
+  text-align: center;
+  max-width: 35em;
+  margin: 3em auto 3em;
+}
+.skills-diagram-programming {
+  font-weight: bold;
+  text-align: center;
+  max-width: 35em;
+  margin: 3em auto 3em;
+}
+.skills-diagram-production {
+  font-weight: bold;
+  text-align: center;
+  max-width: 35em;
+  margin: 3em auto 3em;
+}
+.skills-diagram-design > dd {
+  /* Hide inner attributes */
+  display: none;
+}
+.skills-diagram-programming > dd {
+  /* Hide inner attributes */
+  display: none;
+}
+.skills-diagram-programming > dd {
+  /* Hide inner attributes */
+  display: none;
+}
+.skills-diagram-design dt {
+  display: inline-block;
+  vertical-align: top;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  
+  -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+  
+  /* set defaults to skill-2 */
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+.skills-diagram-programming dt {
+  display: inline-block;
+  vertical-align: top;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  
+  -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+  
+  /* set defaults to skill-2 */
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+.skills-diagram-production dt {
+  display: inline-block;
+  vertical-align: top;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  
+  -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+  
+  /* set defaults to skill-2 */
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.skills-diagram-design dt:hover {
+  -webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.skills-diagram-programming dt:hover {
+  -webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.skills-diagram-production dt:hover {
+  -webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/* Support vertical mode */
+.skills-diagram-vertical dt {
+  display: block;
+  /* .25em is an equivalent to inline-block's horizontal whitespace margin */
+  margin: .25em auto;
+  margin-top: 20px;
+}
+
+/* Provide 10 different sizes for design chart*/
+.skills-diagram-design .skill-2 {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  
+  background-color: rgba(201, 155, 129, .3);
+  border-color: rgba(201, 155, 129, 1);
+  color: rgba(201, 155, 129, 1);
+}
+.skills-diagram-design .skill-3 {
+  vertical-align: middle;
+  
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  background-color: rgba(138, 138, 140, .3);
+  border-color: rgba(138, 138, 140, 1);
+  color: rgba(138, 138, 140, 1);
+}
+.skills-diagram-design .skill-4 {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  
+  background-color: rgba(234, 112, 97, .3);
+  border-color: rgba(234, 112, 97, 1);
+  color: rgba(234, 112, 97, 1);
+}
+.skills-diagram-design .skill-5 {
+  vertical-align: bottom;
+
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  background-color: rgba(109, 182, 173, .3);
+  border-color: rgba(109, 182, 173, 1);
+  color: rgba(109, 182, 173, 1);
+}
+.skills-diagram-design .skill-6 {
+  vertical-align: top;
+  
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+  
+  background-color: rgba(46, 0, 19, .5);
+  border-color: rgba(250, 63, 148, 1);
+  color: rgba(250, 63, 148, 1);
+}
+.skills-diagram-design .skill-7 {
+  width: 7em;
+  height: 7em;
+  line-height: 7em;
+  
+  background-color: rgba(42, 0, 51, .5);
+  border-color: rgba(234, 119, 255, 1);
+  color: rgba(234, 119, 255, 1);
+}
+.skills-diagram-design .skill-8 {
+  vertical-align: bottom;
+  
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(28, 10, 0, .5);
+  border-color: rgba(255, 127, 24, 1);
+  color: rgba(255, 127, 24, 1);
+}
+.skills-diagram-design .skill-9 {
+  width: 11em;
+  height: 11em;
+  line-height: 11em;
+  
+  background-color: rgba(2, 28, 36, .5);
+  border-color: rgba(45, 199, 252, 1);
+  color: rgba(45, 199, 252, 1);
+}
+.skills-diagram-design .skill-10 {
+  width: 14em;
+  height: 14em;
+  line-height: 14em;
+  background-color: rgba(58, 38, 78, .5);
+  border-color: rgba(216, 160, 255, 1);
+  color: rgba(216, 160, 255, 1);
+}
+
+/* Provide 10 different sizes for programming chart*/
+.skills-diagram-programming .skill-2 {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  
+  background-color: rgba(201, 155, 129, .3);
+  border-color: rgba(201, 155, 129, 1);
+  color: rgba(201, 155, 129, 1);
+}
+.skills-diagram-programming .skill-3 {
+  vertical-align: middle;
+  
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  background-color: rgba(138, 138, 140, .3);
+  border-color: rgba(138, 138, 140, 1);
+  color: rgba(138, 138, 140, 1);
+}
+.skills-diagram-programming .skill-4 {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  
+  background-color: rgba(234, 112, 97, .3);
+  border-color: rgba(234, 112, 97, 1);
+  color: rgba(234, 112, 97, 1);
+}
+.skills-diagram-programming .skill-5 {
+  vertical-align: bottom;
+
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  background-color: rgba(54, 107, 151, .5);
+  border-color: rgba(254, 221, 80, 1);
+  color: rgba(254, 221, 80, 1);
+}
+.skills-diagram-programming .skill-6 {
+  vertical-align: top;
+  
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+  
+  background-color: rgba(72, 76, 137, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.skills-diagram-programming .skill-7 {
+  width: 7em;
+  height: 7em;
+  line-height: 7em;
+  
+  background-color: rgba(4, 43, 55, .5);
+  border-color: rgba(231, 111, 0, 1);
+  color: rgba(231, 111, 0, 1);
+}
+.skills-diagram-programming .skill-8 {
+  vertical-align: bottom;
+  
+  width: 8em; 
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(214, 186, 48, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.skills-diagram-programming .skill-9 {
+  width: 11em;
+  height: 11em;
+  line-height: 11em;
+  
+  background-color: rgba(21, 111, 186, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.skills-diagram-programming .skill-10 {
+  width: 14em;
+  height: 14em;
+  line-height: 14em;
+  background-color: rgba(228, 77, 38, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Provide 10 different sizes for production chart*/
+.skills-diagram-production .skill-2 {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  
+  background-color: rgba(201, 155, 129, .3);
+  border-color: rgba(201, 155, 129, 1);
+  color: rgba(201, 155, 129, 1);
+}
+.skills-diagram-production .skill-3 {
+  vertical-align: middle;
+  
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  background-color: rgba(138, 138, 140, .3);
+  border-color: rgba(138, 138, 140, 1);
+  color: rgba(138, 138, 140, 1);
+}
+.skills-diagram-production .skill-4 {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  
+  background-color: rgba(234, 112, 97, .3);
+  border-color: rgba(234, 112, 97, 1);
+  color: rgba(234, 112, 97, 1);
+}
+.skills-diagram-production .skill-5 {
+  vertical-align: bottom;
+
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  background-color: rgba(54, 107, 151, .5);
+  border-color: rgba(254, 221, 80, 1);
+  color: rgba(254, 221, 80, 1);
+}
+.skills-diagram-production .skill-6 {
+  vertical-align: top;
+  
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+  
+  background-color: rgba(72, 76, 137, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.skills-diagram-production .skill-7 {
+  width: 7em;
+  height: 7em;
+  line-height: 7em;
+  
+  background-color: rgba(4, 43, 55, .5);
+  border-color: rgba(231, 111, 0, 1);
+  color: rgba(231, 111, 0, 1);
+}
+.skills-diagram-production .skill-8 {
+  vertical-align: bottom;
+  
+  width: 8em; 
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(214, 186, 48, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.skills-diagram-production .skill-9 {
+  width: 11em;
+  height: 11em;
+  line-height: 11em;
+  
+  background-color: rgba(21, 111, 186, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.skills-diagram-production .skill-10 {
+  width: 14em;
+  height: 14em;
+  line-height: 14em;
+  background-color: rgba(228, 77, 38, .5);
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
