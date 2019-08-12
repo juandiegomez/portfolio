@@ -454,8 +454,8 @@ td:last-child {
  * pace.js styles - minimal  - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 .pace {
-  -webkit-pointer-events: none;
-  pointer-events: none;
+  -webkit-pointer-events: default;
+  pointer-events: default;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -605,7 +605,7 @@ select {
   line-height: 20px;
   font-size: 18px;
   text-align: center;
-  pointer-events: none;
+  pointer-events: default;
   color: #252525;
 }
 
